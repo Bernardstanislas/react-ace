@@ -7,7 +7,6 @@
     "build_example": "gulp example",
     "build_watch": "gulp",
     "build": "gulp release",
-    "postinstall": "npm run build:lib",
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rimraf lib dist",
     "build:lib": "node node_modules/babel/bin/babel.js src --out-dir lib"
